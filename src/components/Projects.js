@@ -28,23 +28,23 @@ const Projects = () => {
     const myProjects = [
         {
             title: "Cryptocurrency Price",
-            description: "Recreation of Coinbase's prices tab. It enables you to view current top 60 cryptocurrencies' prices and track price changes.",
+            description: "Recreation of Coinbase's prices tab. It enables you to view cryptocurrency prices in current market and track price changes. Pagination allows user friendly display of thousands of coins.",
             githubLink: "https://github.com/yoomi1231/Crypto-price",
             webLink: "https://crypto-price-cyan.vercel.app/",
             imgSrc: `${CryptoPriceProject}`,
             techStack: "HTML, css, javascript, React"
         },
         {
-            title: "Craft Brewery Finder",
-            description: "ababakskfjdlkaf dkfjls bakskfjdlkaf dkfjls kskfjdlkaf dkfjls dkfjlasdf dkflsjdf dkfdls sdklfj",
+            title: "Brewery Finder",
+            description: "Searching for local craft breweries by entering city name. Able to taggle between map view and list view with search results",
             githubLink: "https://github.com/yoomi1231/brewery-finder",
             webLink: "https://brewery-finder-ig3sapou0-yoomikimdev-gmailcom.vercel.app/",
             imgSrc: `${BreweryFinder}`,
             techStack: "HTML, css, javascript, React, Google API"
         },
         {
-            title: 'Medication Tracker',
-            description: "bakskfjdlkaf dkfjls  bakskfjdlkaf dkfjls bakskfjdlkaf dkfjls bakskfjdlkaf dkfjls  bakskfjdlkaf dkfjls  bakskfjdlkaf dkfjls.",
+            title: 'Virtual PillBox',
+            description: "A tool for patients or caregivers to use to keep track of medications and make visual guide for daily schedule",
             githubLink: "https://github.com/yoomi1231/brewery-finder",
             webLink: "https://med-tracker-client.herokuapp.com/",
             imgSrc: `${PillBox}`,
