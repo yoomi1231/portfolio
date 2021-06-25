@@ -35,7 +35,7 @@ const Projects = () => {
             title: "Brewery Finder",
             description: "Web app to search for local craft breweries by entering city name. Users can taggle between map view and list view with search results",
             githubLink: "https://github.com/yoomi1231/brewery-finder",
-            webLink: "brewery-finder-nine.vercel.app",
+            webLink: "https://brewery-finder-nine.vercel.app",
             imgSrc: `${BreweryFinder}`,
             techStack: "HTML, CSS, JavaScript, React, Google Map API"
         },
