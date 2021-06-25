@@ -10,9 +10,6 @@ const Container = styled.div`
     padding-bottom: 100px;
 `;
 
-const TitleContainer = styled.div`
-`;
-
 const Title = styled.span`
     font-size: 1.8em;
     color: #FE86C1;
@@ -27,20 +24,20 @@ const LineBreak = styled.hr`
 const Projects = () => {
     const myProjects = [
         {
-            title: "Cryptocurrency Price",
-            description: "Recreation of Coinbase's prices tab. It enables you to view cryptocurrency prices in current market and track price changes. Pagination allows user friendly display of thousands of coins.",
+            title: "Cryptocurrency Trading Simulator",
+            description: "Real-time crypto trade simulator that users can use to play out strategies of selling and buying using virtual portfolio. Pagination allows user friendly display of thousands of coins.",
             githubLink: "https://github.com/yoomi1231/Crypto-price",
             webLink: "https://crypto-price-cyan.vercel.app/",
             imgSrc: `${CryptoPriceProject}`,
-            techStack: "HTML, css, javascript, React"
+            techStack: "HTML, CSS, JavaScript, React"
         },
         {
             title: "Brewery Finder",
-            description: "Searching for local craft breweries by entering city name. Able to taggle between map view and list view with search results",
+            description: "Web app to search for local craft breweries by entering city name. Users can taggle between map view and list view with search results",
             githubLink: "https://github.com/yoomi1231/brewery-finder",
             webLink: "https://brewery-finder-ig3sapou0-yoomikimdev-gmailcom.vercel.app/",
             imgSrc: `${BreweryFinder}`,
-            techStack: "HTML, css, javascript, React, Google API"
+            techStack: "HTML, CSS, JavaScript, React, Google API"
         },
         {
             title: 'Virtual PillBox',
@@ -48,16 +45,16 @@ const Projects = () => {
             githubLink: "https://github.com/yoomi1231/brewery-finder",
             webLink: "https://med-tracker-client.herokuapp.com/",
             imgSrc: `${PillBox}`,
-            techStack: "HTML, css, javascript, React, Redux"
+            techStack: "HTML, CSS, JavaScript, React, Redux"
         },
     ];
 
     return (
         <Container>
-            <TitleContainer>
+            <div>
                 <Title>Featured Works</Title>
                 <LineBreak />
-            </TitleContainer>
+            </div>
             {
                 myProjects.map((item, index) => 
                     <ProjectCard
