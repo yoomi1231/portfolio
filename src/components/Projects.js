@@ -35,13 +35,13 @@ const Projects = () => {
             title: "Brewery Finder",
             description: "Web app to search for local craft breweries by entering city name. Users can taggle between map view and list view with search results",
             githubLink: "https://github.com/yoomi1231/brewery-finder",
-            webLink: "https://brewery-finder-ig3sapou0-yoomikimdev-gmailcom.vercel.app/",
+            webLink: "brewery-finder-nine.vercel.app",
             imgSrc: `${BreweryFinder}`,
-            techStack: "HTML, CSS, JavaScript, React, Google API"
+            techStack: "HTML, CSS, JavaScript, React, Google Map API"
         },
         {
             title: 'Virtual PillBox',
-            description: "A tool for patients or caregivers to use to keep track of medications and make visual guide for daily schedule",
+            description: "A tool for patients or caregivers to use to keep track of medications and make visual guide for daily schedule. The web app is powered with openFDA drug API to provide drug informations.",
             githubLink: "https://github.com/yoomi1231/brewery-finder",
             webLink: "https://med-tracker-client.herokuapp.com/",
             imgSrc: `${PillBox}`,
