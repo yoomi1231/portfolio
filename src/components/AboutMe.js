@@ -2,6 +2,8 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 const Container = styled.div`
+    display: flex;
+    flex-direction: column;
 `;
 
 const Title = styled.div`
@@ -17,37 +19,37 @@ const Title = styled.div`
 
 const FirstNameWrap = styled.span`
     padding-top: 100px; 
-    &:nth-child(1) {
+    &:nth-of-type(1) {
         color: #FE86C1;
     }
-    &:nth-child(2) {
+    &:nth-of-type(2) {
         color: #FEB78D;
     }
-    &:nth-child(3) {
+    &:nth-of-type(3) {
         color: #97C8D6;
     }
-    &:nth-child(4) {
+    &:nth-of-type(4) {
         color: #D6BBFF;
     }
-    &:nth-child(5) {
+    &:nth-of-type(5) {
         color: #F56E4A;
     }30F2C6
 `;
 
 const LastNameWrap = styled.span`
-    &:nth-child(1) {
+    &:nth-of-type(1) {
         color: #0181BB;
     }
-    &:nth-child(2) {
+    &:nth-of-type(2) {
         color: #FFDF6F;
     }
-    &:nth-child(3) {
+    &:nth-of-type(3) {
         color: #F56E4A;
     }
 `;
 
-const Content = styled.p`
-    padding-top: 120px;
+const Content = styled.span`
+    padding-top: 100px;
     font-size: 1.2em;
     font-family: 'Lato', sans-serif;
     line-height: 1.7;
@@ -77,7 +79,7 @@ const AboutMe = () => {
             </Title>
             <Content>
                 <div>Hi, I'm a San Francisco based front-end software developer.</div>
-                <div>I really like writing code and building things in Javascript.</div>
+                <div>I really like writing code and building things in JavaScript.</div>
                 <br />
                 <div>Let's chat!</div>
                 <ContactTag href="mailto:yoomi.kim.dev@gmail.com">yoomi.kim.dev@gmail.com</ContactTag>

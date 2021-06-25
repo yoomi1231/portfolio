@@ -35,7 +35,7 @@ const App = () => {
     };
 
     const displayMode = () => {
-        return (lightMode === false ? <i class="far fa-sun"></i> : <i class="fas fa-moon"></i>)
+        return (lightMode === false ? <i className="far fa-sun"></i> : <i className="fas fa-moon"></i>)
     };
 
     return(

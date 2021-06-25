@@ -113,7 +113,7 @@ const ProjectCard = (props) => {
                             href={githubLink}
                             colorDisplay={lightMode === false ? 'white' : '#3b5998'} 
                         >   
-                            <ProjectLink><i class="fab fa-github"></i></ProjectLink>
+                            <ProjectLink><i className="fab fa-github"></i></ProjectLink>
                             <ProjectLink>{techStack}</ProjectLink>
                         </ProjInfo>
                     </ProjectContent>

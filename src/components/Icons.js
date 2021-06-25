@@ -7,6 +7,7 @@ const Container = styled.div`
 
 const ItemContainer = styled.div`
     display: flex;
+    padding-top: 10px;
     width: 20vw;
     justify-content: flex-start;
     color: ${props => props.colorDisplay};
@@ -28,19 +29,19 @@ const Icons = (props) => {
                     colorDisplay={lightMode === false ? 'white' : 'black'} 
                     href='https://github.com/yoomi1231'
                 >
-                    <i class="fab fa-github"></i>
+                    <i className="fab fa-github"></i>
                 </InfoItem>
                 <InfoItem 
                     colorDisplay={lightMode === false ? 'white' : 'black'} 
                     href='https://www.linkedin.com/in/yoomi-kim-739a397b/'
                 >
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                 </InfoItem>
                 <InfoItem 
                     colorDisplay={lightMode === false ? 'white' : 'black'} 
                     href='https://www.instagram.com/yoomikim_/'
                 >
-                    <i class="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                 </InfoItem>
             </ItemContainer>
         </Container>
